@@ -1,9 +1,0 @@
->> Writing PID to /home/injekt/code/ramaze-proto/thin.pid
->> Changing process privilege to injekt:users
->> Thin web server (v1.2.7 codename No Hup)
->> Maximum connections set to 1024
->> Listening on 127.0.0.1:7000, CTRL+C to stop
-127.0.0.1 - - [11/Jun/2010 14:16:39] "GET / HTTP/1.1" 200 385 0.0270
-127.0.0.1 - - [11/Jun/2010 14:16:39] "GET /css/base.css HTTP/1.1" 200 - 0.0007
->> Waiting for 1 connection(s) to finish, can take up to 30 sec, CTRL+C to stop now
->> Exiting!
