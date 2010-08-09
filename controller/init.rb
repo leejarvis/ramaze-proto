@@ -16,6 +16,4 @@ class Controller < Ramaze::Controller
   end
 end
 
-Dir[__DIR__'*'].each do |controller|
-  require controller unless File.basename(controller, '.rb') == 'init'
-end
+require_relative 'main'
