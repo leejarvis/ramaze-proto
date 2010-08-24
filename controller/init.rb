@@ -2,8 +2,8 @@ class Controller < Ramaze::Controller
   map_layouts '/'
   layout :default
   helper :xhtml, :cgi, :formatting
-  engine :haml
-  
+  engine :etanni
+
   def self.action_missing(path)
     return if path == 'not_found'
     try_resolve('/not_found')
